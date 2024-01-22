@@ -81,6 +81,4 @@
             <meta-data
                 android:name="androidx.wear.tiles.PREVIEW"
                 android:resource="@drawable/stub" />
-          service>
-      application>
 </manifest>
