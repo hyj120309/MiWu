@@ -19,7 +19,7 @@ jobs:
       - uses: gradle/gradle-build-action@v2
         with:
           gradle-version: 8.2
-          arguments: assembleRelease
+          arguments: assembleDebug
       - uses: r0adkll/sign-android-release@v1
         id: sign_app
         with:
